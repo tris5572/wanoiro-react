@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.view {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-yomi {
+  font-size: 2em;
+  margin-bottom: -0.5em;
+}
+.color-name {
+  font-size: 4em;
+  margin-bottom: -0.5em;
+  font-weight: bold;
+}
+.color-code-box {
+  margin: 0.4em auto;
+  line-height: 100%;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+.random-button {
+  padding: 1em;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+  background: linear-gradient(to bottom, #fffd 50%, #fff5);
+  cursor: pointer;
+}
+
+.search-field {
+  margin-top: 1em;
+  font-size: 1.5em;
+}
