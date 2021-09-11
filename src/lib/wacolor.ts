@@ -24,9 +24,19 @@ export class WaColor {
     return chroma(this.hex).css();
   };
 
-  // HSLのCSS表記を返す。小数点が出てくるので、返す前に丸めてもいいかも。
+  // HSLのCSS表記を返す。
   cssHsl = (): string => {
-    return chroma(this.hex).css('hsl');
+    // chromaのデフォルト処理では小数点以下の数字が出てくるので、整数に丸める。
+    let h = chroma(this.hex).get('hsl.h');
+    let s = chroma(this.hex).get('hsl.s');
+    let l = chroma(this.hex).get('hsl.l');
+
+    h = Math.round(h);
+    s = Math.round(s * 100.0); // 0..1が返ってくるので100倍して%化
+    l = Math.round(l * 100.0); // 0..1が返ってくるので100倍して%化
+
+    // return chroma(this.hex).css('hsl');
+    return `hsl(${h},${s}%,${l}%)`;
   };
 
   isEqual = (other: WaColor): boolean => {
