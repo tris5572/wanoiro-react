@@ -19,7 +19,7 @@ export function App() {
     setColor(c);
   }, [color]);
 
-  // 文字色とボタン等の背景色。
+  // 文字色とボタン等の背景色。背景色は使用していないが、一応設定。
   let textColor = '#000A';
   let backColor = '#FFFA';
   // 明るさによって文字の色を変える。
