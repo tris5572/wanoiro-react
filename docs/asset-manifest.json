@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/wanoiro-react/static/css/main.8f4c51cf.chunk.css",
-    "main.js": "/wanoiro-react/static/js/main.88ffdddb.chunk.js",
-    "main.js.map": "/wanoiro-react/static/js/main.88ffdddb.chunk.js.map",
+    "main.js": "/wanoiro-react/static/js/main.58ddae91.chunk.js",
+    "main.js.map": "/wanoiro-react/static/js/main.58ddae91.chunk.js.map",
     "runtime-main.js": "/wanoiro-react/static/js/runtime-main.ad3962ab.js",
     "runtime-main.js.map": "/wanoiro-react/static/js/runtime-main.ad3962ab.js.map",
-    "static/js/2.2de06244.chunk.js": "/wanoiro-react/static/js/2.2de06244.chunk.js",
-    "static/js/2.2de06244.chunk.js.map": "/wanoiro-react/static/js/2.2de06244.chunk.js.map",
+    "static/js/2.0e7b7c3a.chunk.js": "/wanoiro-react/static/js/2.0e7b7c3a.chunk.js",
+    "static/js/2.0e7b7c3a.chunk.js.map": "/wanoiro-react/static/js/2.0e7b7c3a.chunk.js.map",
     "static/js/3.fb532a30.chunk.js": "/wanoiro-react/static/js/3.fb532a30.chunk.js",
     "static/js/3.fb532a30.chunk.js.map": "/wanoiro-react/static/js/3.fb532a30.chunk.js.map",
     "index.html": "/wanoiro-react/index.html",
     "static/css/main.8f4c51cf.chunk.css.map": "/wanoiro-react/static/css/main.8f4c51cf.chunk.css.map",
-    "static/js/2.2de06244.chunk.js.LICENSE.txt": "/wanoiro-react/static/js/2.2de06244.chunk.js.LICENSE.txt"
+    "static/js/2.0e7b7c3a.chunk.js.LICENSE.txt": "/wanoiro-react/static/js/2.0e7b7c3a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ad3962ab.js",
-    "static/js/2.2de06244.chunk.js",
+    "static/js/2.0e7b7c3a.chunk.js",
     "static/css/main.8f4c51cf.chunk.css",
-    "static/js/main.88ffdddb.chunk.js"
+    "static/js/main.58ddae91.chunk.js"
   ]
 }
